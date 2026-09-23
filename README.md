@@ -1,5 +1,7 @@
 # Notebook
 
+[![Java CI with Maven](https://github.com/DanyaPetrov/java-notebook/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/DanyaPetrov/java-notebook/actions/workflows/build.yml)
+
 A console-based notebook application in Java that manages multiple contact books. Each book is stored separately on disk, while a central registry tracks them all.
 
 ## Features
