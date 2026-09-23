@@ -33,17 +33,16 @@ Clone the repository and run:
 
 mvn clean package
 
-Run
+### Run
 java -jar target/notebook-1.0-SNAPSHOT.jar
+
 Or use the helper scripts (Windows):
 
-bash
 build.bat
 run.bat
 
 
-Project Structure
-text
+### Project Structure
 src/
 ├── main/java/ru/daniil/notebook/
 │   ├── model/       — domain entities (Contact, BookRef)
@@ -52,19 +51,18 @@ src/
 └── test/java/ru/daniil/notebook/
     └── service/     — unit tests for service layer
 
-Tests
-bash
+### Tests
 mvn test
 The tests cover operations related to working with the NoteBook file.
 
-Roadmap
+### Roadmap
 □ Add JUnit tests for NoteStorage (registry)
 □ Switch registry format to JSON for readability
 □ Add contact groups / tags
 □ Migrate CLI to a simple GUI (JavaFX or Swing)
 
-Author
+### Author
 Даниил — DanialP_Dev
 
-License
+### License
 This project is licensed under the MIT License.
